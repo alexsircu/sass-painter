@@ -1,0 +1,61 @@
+#buy-now-section {
+  width: 100%;
+  height: $buyNowSectionHeight;
+  background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg');
+  background-position: center;
+  .container {
+    display: flex;
+  }
+}
+
+// sezione buy now
+.buy-now-section-left {
+  width: 70%;
+  height: $buyNowSectionHeight;
+  padding-top: 50px;
+  padding-left: 300px;
+  color: white;
+  h3 {
+    margin: 20px 0;
+  }
+  ul {
+    list-style: none;
+    li {
+      margin-top: 10px;
+      i {
+        color: $downloadTrialButtonColor;
+      }
+    }
+  }
+}
+
+.download-trial-button {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  height: 50px;
+  background-color: $downloadTrialButtonColor;
+  padding: 10px 15px;
+  margin-top: 40px;
+  h4 {
+    padding-right: 15px;
+  }
+  .fa-download-container {
+    border-left: 1px solid white;
+    i {
+      font-size: 30px;
+      padding-left: 18px;
+    }
+  }
+  &:hover {
+    background-color: darken($downloadTrialButtonColor, 5%);
+    cursor: pointer;
+  }
+}
+
+.buy-now-section-right {
+  width: 30%;
+  height: $buyNowSectionHeight;
+  background-color: yellow;
+}
+// sezione buy now

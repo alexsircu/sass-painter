@@ -60,3 +60,63 @@ header {
 .header-bottom ul li a i {
   color: #646764;
 }
+
+#buy-now-section {
+  width: 100%;
+  height: 404px;
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
+  background-position: center;
+}
+#buy-now-section .container {
+  display: flex;
+}
+
+.buy-now-section-left {
+  width: 70%;
+  height: 404px;
+  padding-top: 50px;
+  padding-left: 300px;
+  color: white;
+}
+.buy-now-section-left h3 {
+  margin: 20px 0;
+}
+.buy-now-section-left ul {
+  list-style: none;
+}
+.buy-now-section-left ul li {
+  margin-top: 10px;
+}
+.buy-now-section-left ul li i {
+  color: #666666;
+}
+
+.download-trial-button {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  height: 50px;
+  background-color: #666666;
+  padding: 10px 15px;
+  margin-top: 40px;
+}
+.download-trial-button h4 {
+  padding-right: 15px;
+}
+.download-trial-button .fa-download-container {
+  border-left: 1px solid white;
+}
+.download-trial-button .fa-download-container i {
+  font-size: 30px;
+  padding-left: 18px;
+}
+.download-trial-button:hover {
+  background-color: #595959;
+  cursor: pointer;
+}
+
+.buy-now-section-right {
+  width: 30%;
+  height: 404px;
+  background-color: yellow;
+}
